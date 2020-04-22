@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+    
+header{
+    width:100%;
+    background-color: tomato;
+    padding: 10px;
+    overflow: hidden;
+}
+
+p{
+    font-size:14px ;
+    line-height:30px ;
+}
+
+main{
+    background-color: wheat;
+    padding: 20px;
+  }
+
+  .cont-main{
+    width:80%;
+    margin: auto;
+    /*Uso de Flexbox*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-responsive{
+    width: 550px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+section{
+    width:80%;
+    margin:20px auto;
+    /*Uso de Flexbox*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
